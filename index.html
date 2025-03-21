@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vetrina Interattiva - Shahmansouri</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="vetrina-container">
+  <img src="images/vetrina.jpg" alt="Vetrina Artigianato" class="vetrina-img">
+
+  <!-- Hotspot Mappati -->
+  <div class="hotspot" style="top: 20%; left: 10%;" data-title="Piastrella Pesci Blu" data-desc="Piastrella artigianale con decoro pesci su sfondo blu." data-price="€25"></div>
+  <div class="hotspot" style="top: 23%; left: 30%;" data-title="Piastrella Pesci Verde" data-desc="Piastrella quadrata verde con motivi di pesci stilizzati." data-price="€20"></div>
+  <div class="hotspot" style="top: 18%; left: 50%;" data-title="Stella Arancione Pesci" data-desc="Decorazione a stella con pesci su sfondo arancione." data-price="€28"></div>
+  <div class="hotspot" style="top: 25%; left: 70%;" data-title="Piatto Ovale Giallo" data-desc="Piatto decorativo ovale con pesci gialli e neri." data-price="€35"></div>
+  <div class="hotspot" style="top: 40%; left: 15%;" data-title="Esagono Verde Pesci" data-desc="Piastrella esagonale verde con pesci rossi e bianchi." data-price="€22"></div>
+  <div class="hotspot" style="top: 42%; left: 40%;" data-title="Stella Blu Pesci" data-desc="Decorazione a stella blu con pesci bianchi." data-price="€28"></div>
+  <div class="hotspot" style="top: 38%; left: 60%;" data-title="Piatto Ovale Multicolore" data-desc="Piatto decorativo ovale con vari pesci colorati." data-price="€40"></div>
+  <div class="hotspot" style="top: 55%; left: 20%;" data-title="Piastrella Pesci Azzurri" data-desc="Piastrella quadrata con sfondo azzurro e pesci." data-price="€25"></div>
+  <div class="hotspot" style="top: 60%; left: 45%;" data-title="Stella Verde Chiaro" data-desc="Decorazione a stella verde chiaro con pesci bianchi." data-price="€26"></div>
+  <div class="hotspot" style="top: 65%; left: 70%;" data-title="Esagono Pesci Gialli" data-desc="Piastrella esagonale con pesci gialli stilizzati." data-price="€22"></div>
+
+  <div id="infoBox" class="info-box">
+    <span class="close-btn" onclick="closeInfo()">&times;</span>
+    <h4 id="infoTitle"></h4>
+    <p id="infoDesc"></p>
+    <p id="infoPrice"></p>
+    <button onclick="contactWhatsApp()">Contattaci per acquistare</button>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
